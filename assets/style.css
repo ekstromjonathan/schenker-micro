@@ -1,0 +1,32 @@
+h1, h2, h3, h4, h5 {
+	color: #000065;
+}
+#myCarousel {
+	width: 960px;
+	margin:0 auto;
+}
+.navbar {
+	border-radius: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	border-bottom: none !important;
+}
+.navbar-header img {
+	width: 48%;
+	margin-left: 90px;
+}
+.navbar-inverse {
+	background-color: #333;
+}
+.navbar-inverse li.active a {
+	background-color: #FF0000 !important;
+}
+#carouselWrapper {
+	background-color: gainsboro;
+}
+.container.marketing {
+	margin-top: 60px;
+}
+.jumbotron {
+	margin: 30px;
+}
