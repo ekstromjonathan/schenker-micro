@@ -10,19 +10,35 @@ h1, h2, h3, h4, h5 {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 	border-bottom: none !important;
+	padding: 30px 0;
 }
 .navbar-header img {
-	width: 48%;
-	margin-left: 90px;
+	width: 100%;
 }
-.navbar-inverse {
-	background-color: #333;
+.navbar-nav {
+	margin: 0 40px 0 !important;
+}
+.navbar li {
+	font-size: 20px;
+}
+.navbar a {
+	padding-top: 28px !important;
+}
+.navbar a:hover, .navbar a:focus {
+	background-color: white !important;
 }
 .navbar-inverse li.active a {
 	background-color: #FF0000 !important;
 }
 #carouselWrapper {
 	background-color: gainsboro;
+}
+.carousel-caption {
+	padding-bottom: 190px;
+}
+.carousel-caption h1 {
+	color: white;
+	font-size: 400%;
 }
 .container.marketing {
 	margin-top: 60px;
