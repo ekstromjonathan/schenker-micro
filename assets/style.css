@@ -5,15 +5,14 @@ body {
 h1, h2, h3, h4, h5 {
 	color: #000066;
 }
+.tagline {
+    margin-top: 0px;
+}
 a:link, a:visited {
     color: #ff0000;    
 }
 a:hover, a:active {
     color: #999;
-}
-#myCarousel {
-	width: 960px;
-	margin:0 auto;
 }
 .carousel-control {
     color: #fff !important;
