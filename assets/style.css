@@ -49,7 +49,7 @@ a:hover, a:active {
 
 #carouselWrapper {
     background-color: #000;
-    border-bottom: 10px solid #ff0000;
+    border-bottom: 10px solid #000066;
 }
 
 .carousel {
@@ -85,29 +85,25 @@ a:hover, a:active {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 60px;
-    background-color: #000066;
     width: 100%;
 }
 .container.headshots {
     padding-top: 0;
 }
 .headshots .col-lg-4 {
-    padding: 3px;
+    padding: 0px;
     margin-bottom: 0;
 }
 .headshots img {
-    width: 100%;
+    width: 95%;
+    margin-top: 10px;
 }
-.headshots img:hover {
-    width: 102%;
-    position: absolute;
-    z-index: 2000;
-    left: -5px;
-    top: -5px;
+.headshots p {
+    text-align: left;
 }
-.bio {
-    width: 100%;
-    background-color: white;
+.headshots .col-lg-10 {
+    float: none;
+    margin: 0 auto;
 }
 
 .btn-default:hover, .btn-default:hover {

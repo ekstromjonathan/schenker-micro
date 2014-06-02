@@ -1,14 +1,17 @@
 $(document).ready(function() {
-	$('.headshots a').on('click', function (e) {
+	$('.readMore').on('click', function (e) {
 		e.preventDefault();
-		$('.bio').slideDown('400', function() {
-			
+		console.log($(this).siblings().filter('.bio'))
+		$(this).siblings().filter('.bio').slideDown('400', function() {
+			$(this).siblings().filter('.readMore').hide();
+			$(this).siblings().filter('.readLess').show();
 		});
 	});
-	$('.bio .exit').on('click', function (e) {
+	$('.readLess').on('click', function (e) {
 		e.preventDefault();
-		$('.bio').slideUp('400', function () {
-			
+		$(this).siblings().filter('.bio').slideUp('400', function() {
+			$(this).siblings().filter('.readMore').show();
+			$(this).siblings().filter('.readLess').hide();
 		});
 	});
 });
