@@ -242,11 +242,11 @@ a:hover, a:active {
 
 @font-face {
     font-family: 'db_sansregular';
-    src: url('fonts/dbsans-regular-webfont.eot');
-    src: url('fonts/dbsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/dbsans-regular-webfont.woff') format('woff'),
-         url('fonts/dbsans-regular-webfont.ttf') format('truetype'),
-         url('fonts/dbsans-regular-webfont.svg#db_sansregular') format('svg');
+    src: url('./fonts/dbsans-regular-webfont.eot');
+    src: url('./fonts/dbsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/dbsans-regular-webfont.woff') format('woff'),
+         url('./fonts/dbsans-regular-webfont.ttf') format('truetype'),
+         url('./fonts/dbsans-regular-webfont.svg#db_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -294,8 +294,7 @@ a:hover, a:active {
 @media (max-width: 991px) {
     #footer .menu ul li a {
         padding: 15px 17px 15px 0px; } }
-#footer .social {
-    text-align: right; }
+
 @media (max-width: 767px) {
     #footer .social {
         text-align: center;
@@ -331,7 +330,6 @@ a:hover, a:active {
         margin-top: 40px; } }
 #footer-white .menu h3 {
     margin-top: 0;
-    color: #888;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 14px;
@@ -344,7 +342,7 @@ a:hover, a:active {
     display: block;
     margin-bottom: 9px; }
 #footer-white .menu ul li a {
-    color: #89A1C0;
+    color: #999;
     display: inline-block;
     font-weight: 500;
     font-size: 13px;
@@ -354,13 +352,12 @@ a:hover, a:active {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; }
 #footer-white .menu ul li a:hover {
-    color: #000;
+    color: #ff0000;
     text-decoration: none; }
 @media (max-width: 991px) {
     #footer-white .menu ul li a {
         padding: 0; } }
 #footer-white .menu ul li .hiring {
-    font-family: "Lato", "Helvetica Neue", Arial;
     font-weight: 700;
     letter-spacing: .3px;
     text-transform: uppercase;
@@ -370,18 +367,16 @@ a:hover, a:active {
     padding: 3px 8px;
     border-radius: 4px;
     color: #fff;
-    background: #49B7E2; }
+    background: #CC6666; }
 #footer-white .menu ul li .hiring:hover {
     color: #fff;
-    background: #0E82AF; }
-#footer-white .newsletter {
-    text-align: right; }
+    background: #CC0000; }
 @media (max-width: 767px) {
     #footer-white .newsletter {
         text-align: center;
         margin-top: 40px; } }
 #footer-white .newsletter .signup {
-    margin-bottom: 40px; }
+    margin-bottom: 30px; }
 #footer-white .newsletter .signup p {
     font-size: 13px;
     color: #666;
@@ -403,6 +398,7 @@ a:hover, a:active {
         float: none;
         width: 100%; } }
 #footer-white .newsletter .signup form input[type="text"] {
+    height: 40px;
     font-size: 13px; }
 #footer-white .newsletter .signup form input[type="text"]::-webkit-input-placeholder {
     font-size: 13px;
@@ -418,7 +414,7 @@ a:hover, a:active {
     line-height: 17px; }
 #footer-white .newsletter .signup form input[type="submit"] {
     border: 0;
-    background: #84B0E2;
+    background: #CC6666;
     color: #FFF;
     border-radius: 3px;
     padding: 6px 10px;
@@ -433,7 +429,7 @@ a:hover, a:active {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; }
 #footer-white .newsletter .signup form input[type="submit"]:hover {
-    background: #6284AC; }
+    background: #CC0000; }
 #footer-white .newsletter a {
     border: 0;
     text-decoration: none;
@@ -457,3 +453,6 @@ a:hover, a:active {
     font-size: 13px;
     text-align: center;
     color: #A1AAB6; }
+#footer-white .social {
+    margin-left: 2%;
+}
