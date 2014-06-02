@@ -1,10 +1,17 @@
 body {
     color: #333;
-    font-family: 'db_sansregular', Arial, sans-serif;
+    font-family: 'db_sansblack', Arial, sans-serif;
     padding-bottom: 0px;
 }
 h1, h2, h3, h4, h5 {
-	color: #000066;
+    color: #000066;
+}
+.thumbnail {
+    border-color: #ccc;
+}
+.well {
+    background-color: #dedede;
+    border-color: #ccc;
 }
 .tagline {
     margin-top: 0px;
@@ -20,44 +27,42 @@ a:hover, a:active {
     color: #fff !important;
 }
 .navbar {
-	margin-bottom: 0;
-	border-bottom: 1px solid #CCCCCC;
-	padding: 30px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 30px 0;
 }
 .navbar-header img {
-	width: 100%;
+    width: 100%;
 }
 .navbar-nav {
-	margin: 0 40px 0 !important;
+    margin: 0 40px 0 !important;
 }
 .navbar li {
-	font-size: 20px;
+    font-size: 20px;
 }
 .navbar a:hover, .navbar a:focus {
-	background-color: white !important;
+    background-color: white !important;
 }
 .navbar-inverse li.active a {
-	background-color: #FF0000 !important;
+    background-color: #FF0000 !important;
 }
 
 #carouselWrapper {
-	background-color: #e7e7e7;
+    background-color: #000;
+    border-bottom: 10px solid #ff0000;
 }
 
 .carousel {
     height: 500px;
-    margin-bottom: 60px;
+    margin-bottom: 0;
 }
 
 .carousel-caption {
-	padding-bottom: 190px;
+    padding-bottom: 190px;
 }
 .carousel-caption h1 {
-	color: white;
-	font-size: 400%;
-}
-.container.marketing {
-	margin-top: 60px;
+    color: white;
+    font-size: 400%;
 }
 .carousel-inner > .item > img {
     position: absolute;
@@ -66,23 +71,52 @@ a:hover, a:active {
     min-width: 100%;
     height: 500px;
 }
+.carousel .video {
+    width: 50%;
+    margin: 0 auto;
+}
+.marketing .col-lg-4 {
+    text-align: left;
+}
+.marketing .col-lg-4 h3 {
+    margin-left: 10px;
+}
+.container.marketing {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    background-color: #000066;
+    width: 100%;
+}
+.container.headshots {
+    padding-top: 0;
+}
+.headshots .col-lg-4 {
+    padding: 3px;
+    margin-bottom: 0;
+}
+.headshots img {
+    width: 100%;
+}
+.headshots img:hover {
+    width: 102%;
+    position: absolute;
+    z-index: 2000;
+    left: -5px;
+    top: -5px;
+}
+.bio {
+    width: 100%;
+    background-color: white;
+}
+
 .btn-default:hover, .btn-default:hover {
     background-color: #e7e7e7;
     border-color: #999;
 }
 
-.jumbotron {
-	margin: 30px;
-}
 #pdf img {
     width: 75%
-}
-.thumbnail {
-    border-color: #ccc;
-}
-.well {
-    background-color: #dedede;
-    border-color: #ccc;
 }
 #footer {
     padding-top: 15px; 
@@ -110,10 +144,13 @@ a:hover, a:active {
 
 /* Helper Classes
 ---------------------------------------------------*/
-.underline {
-    text-decoration: underline;
-}
 
+.white {
+    color: white;
+}
+.db-red {
+    color: #ff0000;
+}
 
 
 /* RESPONSIVE CSS
@@ -318,7 +355,7 @@ a:hover, a:active {
 
 #footer-white {
     background: #fff;
-    padding-top: 70px;
+    padding-top: 40px;
     padding-bottom: 30px;
     -webkit-font-smoothing: antialiased; }
 @media (max-width: 991px) {
