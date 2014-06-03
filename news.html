@@ -20,7 +20,7 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+
     <link href="assets/style.css" rel="stylesheet">
 
 </head>
@@ -30,19 +30,19 @@
     <div class="navbar navbar-static-top" role="navigation">
         <div class="container">
             <div class="navbar-header col-xs-12">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="col-xs-4 pull-right">
+                <div class="col-xs-7 col-sm-4">
                     <a href="index.html"><img src="images/db-logo.jpg"></a>
                 </div>
             </div>
-            <div class="col-xs-4 pull-right">
+            <div class="col-xs-7 col-sm-4">
                 <h1 class="tagline text-center"><small>"Logistics for Winners"</small></h1>
             </div>
+            <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="services.html">OUR SERVICES</a></li>
@@ -93,7 +93,9 @@
                     </div>
                 </div>
                 <div class="item video">
-                    <iframe width="100%" height="500" src="http://www.youtube.com/embed/Dozk_1bKlDs" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-container">
+                        <iframe width="100%" height="495" src="http://www.youtube.com/embed/Dozk_1bKlDs" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
             <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
@@ -112,17 +114,21 @@
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
-            <div class="col-lg-4">
-                <iframe width="100%" height="240" src="http://www.youtube.com/embed/ZwbvGO1LFbM" frameborder="0" allowfullscreen></iframe>    
+            <div class="col-md-4 col-sm-6">
+                <div class="video-container">
+                    <iframe width="100%" height="240" src="http://www.youtube.com/embed/ZwbvGO1LFbM" frameborder="0" allowfullscreen></iframe>   
+                </div>
                 <h2>Heading</h2>
 
                 <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
 
                 <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
             </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <iframe width="100%" height="240" src="http://www.youtube.com/embed/UN1q94xL-Cc" frameborder="0" allowfullscreen></iframe>
+            <!-- /.col-md-4 col-sm-6 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="video-container">
+                    <iframe width="100%" height="240" src="http://www.youtube.com/embed/UN1q94xL-Cc" frameborder="0" allowfullscreen></iframe>
+                </div>
 
                 <h2>Heading</h2>
 
@@ -131,9 +137,11 @@
 
                 <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
             </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <iframe width="100%" height="240" src="http://www.youtube.com/embed/yP5CjRiA5aY" frameborder="0" allowfullscreen></iframe>
+            <!-- /.col-md-4 col-sm-6 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="video-container">
+                    <iframe width="100%" height="240" src="http://www.youtube.com/embed/yP5CjRiA5aY" frameborder="0" allowfullscreen></iframe>
+                </div>
 
                 <h2>Heading</h2>
 
@@ -142,7 +150,7 @@
 
                 <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
             </div>
-            <!-- /.col-lg-4 -->
+            <!-- /.col-md-4 col-sm-6 -->
         </div>
         <!-- /.row -->
 
@@ -194,7 +202,6 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->
 
@@ -205,7 +212,7 @@
     <div id="footer-white">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3 menu">
+                <div class="col-sm-3 col-xs-6 menu">
                     <h3>Overview</h3>
                     <ul>
                         <li>
@@ -228,7 +235,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-3 menu">
+                <div class="col-sm-3 col-xs-6 menu">
                     <h3>Menu</h3>
                     <ul>
                         <li>
@@ -251,7 +258,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-2 menu">
+                <div class="col-sm-2 col-xs-3 menu">
                     <h3>Social</h3>
                     <ul>
                         <li>
@@ -265,23 +272,23 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-4 newsletter">
+                <div class="col-sm-4 col-xs-9 newsletter">
                     <div class="signup clearfix">
                         <p>
                             Sign up for the newsletter and we'll inform you of updates, offers and more.
                         </p>
                         <form>
                             <input type="text" name="email" class="form-control" placeholder="Your email address">
-                            <input type="submit" value="Sign up">
+                            <input class="sign-up" type="submit" value="Sign up">
                         </form>
-                    </div>
-                    <div class="col-sm-5 social">
-                        <a href="#">
-                            <img width="30%" src="images/t-icon.png" alt="twitter">
-                        </a>
-                        <a href="#">
-                            <img width="30%" src="images/fb-icon.png" alt="facebook">
-                        </a>
+                        <div class="col-sm-7 social">
+                            <a href="#">
+                                <img width="30%" src="images/t-icon.png" alt="twitter">
+                            </a>
+                            <a href="#">
+                                <img width="30%" src="images/fb-icon.png" alt="facebook">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
