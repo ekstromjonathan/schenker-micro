@@ -1,12 +1,41 @@
 body {
+  font-size: 16px;
+}
+
+body {
     color: #333;
-    font-family: 'db_sansregular', Arial, sans-serif;
+    font-family: 'db_sansregular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     padding-bottom: 0px;
     font-weight: 600;
+}
+
+p {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
 }
 h1, h2, h3, h4, h5 {
     color: #000066;
 }
+
+h1 {
+  font-size: 2.125em; }
+
+h2 {
+  font-size: 1.6875em; }
+
+h3 {
+  font-size: 1.375em; }
+
+h4 {
+  font-size: 1.125em; }
+
+h5 {
+  font-size: 1.125em; }
+
+h6 {
+  font-size: 1rem; }
+
 .thumbnail {
     border-color: #ccc;
 }
@@ -22,7 +51,7 @@ h1, h2, h3, h4, h5 {
     font-size: 56%;
 }
 a:link, a:visited {
-    color: #ff0000;    
+    color: #ff0000;
 }
 a:hover, a:active {
     color: #999;
@@ -72,7 +101,6 @@ a:hover, a:active {
 }
 .carousel-caption h1 {
     color: white;
-    font-size: 400%;
 }
 .carousel .video {
     width: 65.3%;
@@ -133,7 +161,7 @@ a:hover, a:active {
     width: 75%
 }
 #footer {
-    padding-top: 15px; 
+    padding-top: 15px;
     background-color: black;
     width: 100%;
     margin: 0;
@@ -141,7 +169,7 @@ a:hover, a:active {
 }
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5 {
     color: white;
-} 
+}
 #footer a:link, #footer a:visited {
     color: #999;
 }
@@ -165,12 +193,12 @@ a:hover, a:active {
 .db-red {
     color: #ff0000;
 }
-/* footer 
+/* footer
 ---------------------------------------------------*/
 #footer-white {
     background: #fff;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     -webkit-font-smoothing: antialiased; }
 @media (max-width: 991px) {
     #footer-white {
@@ -182,7 +210,7 @@ a:hover, a:active {
     margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-weight: 600; }
 #footer-white .menu ul {
     list-style-type: none;
@@ -375,7 +403,6 @@ a:hover, a:active {
     }
 
     .featurette-heading {
-        font-size: 50px;
     }
 }
 
