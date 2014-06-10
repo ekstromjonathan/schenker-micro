@@ -133,6 +133,10 @@ a:hover, a:active {
     padding-top: 60px;
     width: 100%;
 }
+.container.news {
+    width: 100%;
+    padding-top: 3%;
+}
 .container.headshots {
     padding-top: 0;
 }
@@ -152,13 +156,34 @@ a:hover, a:active {
     margin: 0 auto;
 }
 
+
 .btn-default:hover, .btn-default:hover {
     background-color: #e7e7e7;
     border-color: #999;
 }
-
+.btn-danger, .btn-danger:link, .btn-danger:visited {
+    background-color: #cc6666;
+    border-color: #B40000;
+}
+.btn-danger:hover, .btn-danger:active {
+    background-color: #cc0000;
+    border-color: #B40000;
+}
+.btn-danger:focus {
+    background-color: #cc0000;
+}
+.lan-select {
+    margin-top: 2%;
+}
 #pdf img {
     width: 75%
+}
+
+.news-image {
+    padding: 30px 20px 20px 30px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-right: 10px;
 }
 #footer {
     padding-top: 15px;

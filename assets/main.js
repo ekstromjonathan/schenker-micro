@@ -1,7 +1,8 @@
 $(document).ready(function() {
+
+	// full bio functionality
 	$('.readMore').on('click', function (e) {
 		e.preventDefault();
-		console.log($(this).siblings().filter('.bio'))
 		$(this).siblings().filter('.bio').slideDown('400', function() {
 			$(this).siblings().filter('.readMore').hide();
 			$(this).siblings().filter('.readLess').show();
@@ -14,5 +15,25 @@ $(document).ready(function() {
 			$(this).siblings().filter('.readLess').hide();
 		});
 	});
+
+	// alternate language functionality
+	$('.readEnglish').on('click', function(e) {
+		e.preventDefault();
+		$('.german').fadeOut('400', function() {
+			$('.english').fadeIn('400', function() {
+				
+			});
+		});
+	});
+	$('.readGerman').on('click', function(e) {
+		e.preventDefault();
+		$('.english').fadeOut('400', function() {
+			$('.german').fadeIn('400', function() {
+				
+			});
+		});
+	});
+
+	$('.readEnglish').focus();
 
 });
