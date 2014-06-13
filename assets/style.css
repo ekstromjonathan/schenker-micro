@@ -44,11 +44,14 @@ h6 {
     border-color: #ccc;
 }
 .tagline {
-    margin-top: 0px;
+    margin-top: 1%;
     margin-bottom: 0px;
 }
+.tagline .push-right {
+    margin-left: 70px;
+}
 .tagline small {
-    font-size: 56%;
+    font-size: 65%;
 }
 a:link, a:visited {
     color: #ff0000;
@@ -60,6 +63,9 @@ a:hover, a:active {
 .carousel-control {
     color: #fff !important;
 }
+.nav-container {
+    width: 75%;
+}
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid #CCCCCC;
@@ -67,9 +73,6 @@ a:hover, a:active {
 }
 .navbar-header img {
     width: 100%;
-}
-.navbar-nav {
-    margin: 0 40px 0;
 }
 .navbar li {
     font-size: 20px;
