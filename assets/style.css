@@ -178,6 +178,13 @@ a:hover, a:active {
 #pdf img {
     width: 75%
 }
+.readMore, .readLess {
+    display: inline-block;
+}
+.download {
+    margin-left: 3%;
+    display: inline-block;
+}
 
 .news-image {
     padding: 30px 20px 20px 30px;
@@ -217,6 +224,10 @@ a:hover, a:active {
 }
 .db-red {
     color: #ff0000;
+}
+.subhead {
+    color: black;
+    line-height: 24px;
 }
 /* footer
 ---------------------------------------------------*/
