@@ -64,7 +64,7 @@ a:hover, a:active {
     color: #fff !important;
 }
 .nav-container {
-    width: 75%;
+    width: 100%;
 }
 .navbar {
     margin-bottom: 0;
@@ -188,13 +188,30 @@ a:hover, a:active {
     margin-left: 3%;
     display: inline-block;
 }
-
+.db-link:link, .db-link:visited {
+    color: #999;
+}
+.db-link:hover, .db-link:active {
+    color: #ff0000;
+}
+a.thumbnail:hover {
+    border-color: #ff0000;
+}
 .news-image {
     padding: 30px 20px 20px 30px;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     margin-right: 10px;
 }
+.news-image-right {
+    padding: 30px 30px 20px 20px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.news.well {
+    margin-top: 3%;
+}
+
 #footer {
     padding-top: 15px;
     background-color: black;
