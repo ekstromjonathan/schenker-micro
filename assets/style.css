@@ -178,8 +178,12 @@ a:hover, a:active {
 .lan-select {
     margin-top: 2%;
 }
+
 #pdf img {
     width: 75%
+}
+.logo-old {
+    margin-top: 29%;
 }
 .readMore, .readLess {
     display: inline-block;
