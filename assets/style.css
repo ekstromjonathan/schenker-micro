@@ -43,6 +43,9 @@ h6 {
     background-color: #dedede;
     border-color: #ccc;
 }
+.logo {
+    padding-left: 0;
+}
 .tagline {
     margin-top: 1%;
     margin-bottom: 0px;
@@ -70,6 +73,13 @@ a:hover, a:active {
     margin-bottom: 0;
     border-bottom: 1px solid #CCCCCC;
     padding: 30px 0;
+}
+.navbar a:link, .navbar a:visited {
+    color: #cc0000;
+}
+
+.navbar-header {
+    margin: 0 !important;
 }
 .navbar-header img {
     width: 100%;
