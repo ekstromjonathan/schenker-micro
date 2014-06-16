@@ -105,6 +105,9 @@ a:hover, a:active {
 .carousel-caption h1 {
     color: white;
 }
+.carousel img {
+    width: 100%;
+}
 .carousel .video {
     width: 65.3%;
     margin: 0 auto;
@@ -142,6 +145,7 @@ a:hover, a:active {
 }
 .container.headshots {
     padding-top: 0;
+    width: 100%;
 }
 .headshots .col-lg-4 {
     padding: 0px;
