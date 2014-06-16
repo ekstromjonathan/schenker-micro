@@ -179,6 +179,9 @@ a:hover, a:active {
 .btn-danger:focus {
     background-color: #cc0000;
 }
+a.btn-danger {
+    color: white;
+}
 .lan-select {
     margin-top: 2%;
 }
