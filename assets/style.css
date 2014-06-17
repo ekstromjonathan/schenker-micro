@@ -129,15 +129,15 @@ a:hover, a:active {
 .carousel {
     margin-bottom: 0px;
 }
-
-.carousel-caption {
-    padding-bottom: 17%;
-}
 .carousel-caption h1 {
-    color: white;
+    color: #ff0000;
 }
 .carousel img {
     width: 100%;
+}
+img.box-ad {
+    width: 46.9%;
+    margin: auto;
 }
 .carousel .video {
     width: 65.3%;
@@ -435,6 +435,9 @@ a:hover, a:active {
     .social img {
         width: 30px;
     }
+    .carousel-caption h1 {
+        font-size: 1.5em;
+    }
 
 }
 
@@ -493,6 +496,9 @@ a:hover, a:active {
 @media (max-width: 480px) {
     .tagline small {
         font-size: 48%;
+    }
+    .carousel-caption h1 {
+        font-size: 0.9em;
     }
 }
 
