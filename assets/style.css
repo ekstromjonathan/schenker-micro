@@ -13,6 +13,10 @@ p, .container ul {
   font-size: 1em;
   font-weight: 300;
 }
+ul.nav {
+    font-family: 'db_sansregular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
 h1, h2, h3, h4, h5 {
     color: #000066;
 }
