@@ -129,8 +129,11 @@ a:hover, a:active {
 .carousel {
     margin-bottom: 0px;
 }
+.carousel-caption {
+    text-shadow: 4px 3px 4px rgba(0,0,0,.6);
+}
 .carousel-caption h1 {
-    color: #ff0000;
+    color: #fff;
 }
 .carousel img {
     width: 100%;
