@@ -8,7 +8,7 @@ body {
     font-weight: 600;
 }
 
-p {
+p, .container ul {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
@@ -235,11 +235,9 @@ img.box-ad {
 
 /* Services page
 ---------------------*/
-#pdf img {
-    width: 75%
-}
-.logo-old {
-    margin-top: 29%;
+
+.shorty-image {
+    padding-top: 16%;
 }
 
 /* Old footer
@@ -271,6 +269,9 @@ img.box-ad {
 /* Helper Classes
 ---------------------------------------------------*/
 
+.no-margin {
+    margin: 0;
+}
 .white {
     color: white;
 }
