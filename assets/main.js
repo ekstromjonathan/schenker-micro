@@ -36,4 +36,18 @@ $(document).ready(function() {
 
 	$('.readEnglish').focus();
 
+	// infographic popup
+	$('.infographic-scroller').height(window.innerHeight);
+	$('.infographic').on('click', function(e) {
+		e.preventDefault();
+		$('.infographic-wrapper').fadeIn('400', function() {
+			
+		});
+	});
+	$('.exit').on('click', function(e) {
+		$('.infographic-wrapper').fadeOut('400', function() {
+			
+		});
+	});
+
 });

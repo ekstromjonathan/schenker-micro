@@ -64,6 +64,27 @@ a:hover, a:active {
     color: #fff;
 }
 
+/* Infographic 
+------------------------------------- */
+.infographic-wrapper {
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 1001;
+}
+.infographic-scroller {
+    margin: auto;
+    width: 75%;
+    overflow: auto;
+}
+.infographic-scroller button {
+    position: absolute;
+    top: 0;
+    margin-left: 75.2%;
+}
+.infographic-wrapper img {
+    margin: auto;
+}
+
 /* Header and Nav
 -------------------------------------*/
 .logo {
@@ -231,6 +252,12 @@ img.box-ad {
 }
 .readMore, .readLess {
     display: inline-block;
+}
+
+/* Case Studies page
+----------------------------------- */
+.featurette span.glyphicon-circle-arrow-right {
+    top: 3px;
 }
 
 /* Services page
