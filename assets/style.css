@@ -306,6 +306,12 @@ img.box-ad {
 .white {
     color: white;
 }
+.black {
+    color: black !important;
+}
+a.black:hover {
+    color: white !important;
+}
 .db-red {
     color: #ff0000;
 }
@@ -313,6 +319,7 @@ img.box-ad {
     color: black;
     line-height: 24px;
 }
+
 /* current footer
 ---------------------------------------------------*/
 #footer-white {
