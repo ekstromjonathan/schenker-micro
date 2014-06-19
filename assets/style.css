@@ -8,7 +8,7 @@ body {
     font-weight: 600;
 }
 
-p, .container ul {
+p, .container ul, label {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
@@ -453,6 +453,9 @@ img.box-ad {
 #footer-white .social {
     margin-top: 20px;
     margin-left: 2%;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
 }
 
 /* RESPONSIVE CSS
