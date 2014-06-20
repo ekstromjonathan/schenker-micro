@@ -246,6 +246,10 @@ img.box-ad {
     padding-top: 0;
     width: 100%;
 }
+.headshots h1 {
+    float: none;
+    padding-left: 2%;
+}
 .headshots .col-lg-4 {
     padding: 0px;
     margin-bottom: 0;
