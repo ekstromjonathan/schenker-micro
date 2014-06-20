@@ -256,8 +256,14 @@ img.box-ad {
     width: 95%;
     margin-top: 10px;
 }
+.headshots h3 {
+    height: 4em;
+}
 .headshots p {
     text-align: left;
+}
+.summary {
+    height: 13em;
 }
 .headshots .col-lg-11 {
     float: none;
@@ -476,6 +482,46 @@ a.black:hover {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+/* Bio wells */
+@media (min-width: 850px) and (max-width: 1380px) {
+    .headshots h3 {
+        font-size: 1.2em;
+        height: 4.6em;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1210px) {
+    .summary {
+        height: 16em;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 999px) {
+    .summary {
+        height: 20em;
+    }
+}
+@media (min-width: 768px) and (max-width: 899px) {
+    .headshots h3 {
+        font-size: 1.2em;
+    }
+    .summary {
+        font-size: 0.9em;
+        height: 21em;
+    }
+}
+@media (min-width: 500px) and (max-width: 767px) {
+    .headshots img {
+        float: left;
+        width: 39%;
+        margin-top: 0;
+        padding: 0 15px 15px 0;
+    }
+    a.readMore, a.readLess {
+        display: block;
+        clear: both;
+    }
+}
+
 @media (max-width: 767px) {
     #footer-white {
         padding-top: 0;
@@ -492,6 +538,14 @@ a.black:hover {
     .carousel-caption h1 {
         font-size: 1.5em;
     }
+    .headshots h3 {
+        height: auto;
+    }
+    .headshots .col-sm-4 {
+        margin-top: 20px;
+        padding: 0;
+    }
+
 
 }
 
@@ -501,9 +555,6 @@ a.black:hover {
     }
     .case-studies .featurette-divider {
         margin: 30px 0;
-    }
-    .headshots hr {
-        display: none;
     }
     .headshots .col-sm-6 {
         padding-bottom: 10px;
