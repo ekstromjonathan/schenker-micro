@@ -5,20 +5,11 @@ body {
     color: #333;
     font-family: 'db_sansregular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     padding-bottom: 0px;
-    font-weight: 600;
-}
-
-p, .container ul, label {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  font-weight: 300;
-}
-ul.nav {
-    font-family: 'db_sansregular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 300;
 }
 h1, h2, h3, h4, h5 {
     color: #000066;
+    font-family: 'db_headregular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -38,6 +29,13 @@ h5 {
 
 h6 {
   font-size: 1rem; }
+
+small {
+    font-family: 'db_sansregular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.nav a {
+    font-family: 'db_headregular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
 
 .thumbnail {
     border-color: #ccc;
@@ -479,6 +477,9 @@ a.black:hover {
 .margin-bottom-20 {
     margin-bottom: 20px;
 }
+label {
+    font-weight: normal;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -489,13 +490,13 @@ a.black:hover {
         height: 4.6em;
     }
 }
-@media (min-width: 1000px) and (max-width: 1210px) {
+@media (min-width: 1080px) and (max-width: 1290px) {
     .summary {
         height: 16em;
     }
 }
 
-@media (min-width: 900px) and (max-width: 999px) {
+@media (min-width: 900px) and (max-width: 1079px) {
     .summary {
         height: 20em;
     }
@@ -503,10 +504,11 @@ a.black:hover {
 @media (min-width: 768px) and (max-width: 899px) {
     .headshots h3 {
         font-size: 1.2em;
+        height: 5em;
     }
     .summary {
         font-size: 0.9em;
-        height: 21em;
+        height: 23em;
     }
 }
 @media (min-width: 500px) and (max-width: 767px) {
@@ -640,6 +642,76 @@ a.black:hover {
 }
 
 /* Fonts */
+@font-face {
+    font-family: 'db_sansregular';
+    src: url('./fonts/dbsans-regular-webfont.eot');
+    src: url('./fonts/dbsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/dbsans-regular-webfont.woff') format('woff'),
+         url('./fonts/dbsans-regular-webfont.ttf') format('truetype'),
+         url('./fonts/dbsans-regular-webfont.svg#db_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'db_sansregular';
+    src: url('fonts/dbsans-bold-webfont.eot');
+    src: url('fonts/dbsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dbsans-bold-webfont.woff') format('woff'),
+         url('fonts/dbsans-bold-webfont.ttf') format('truetype'),
+         url('fonts/dbsans-bold-webfont.svg#db_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'db_sansregular';
+    src: url('fonts/dbsans-italic-webfont.eot');
+    src: url('fonts/dbsans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dbsans-italic-webfont.woff') format('woff'),
+         url('fonts/dbsans-italic-webfont.ttf') format('truetype'),
+         url('fonts/dbsans-italic-webfont.svg#db_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'db_headblack_italic';
+    src: url('fonts/dbhea37-webfont.eot');
+    src: url('fonts/dbhea37-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dbhea37-webfont.woff') format('woff'),
+         url('fonts/dbhea37-webfont.ttf') format('truetype'),
+         url('fonts/dbhea37-webfont.svg#db_headblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'db_headblack';
+    src: url('fonts/dbhea07-webfont.eot');
+    src: url('fonts/dbhea07-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dbhea07-webfont.woff') format('woff'),
+         url('fonts/dbhea07-webfont.ttf') format('truetype'),
+         url('fonts/dbhea07-webfont.svg#db_headblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'db_headregular';
+    src: url('fonts/dbhea03-webfont.eot');
+    src: url('fonts/dbhea03-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dbhea03-webfont.woff') format('woff'),
+         url('fonts/dbhea03-webfont.ttf') format('truetype'),
+         url('fonts/dbhea03-webfont.svg#db_headregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
     font-family: 'db_sansblack';
@@ -671,17 +743,6 @@ a.black:hover {
 
 
 
-@font-face {
-    font-family: 'db_sansbold';
-    src: url('fonts/dbsans-bold-webfont.eot');
-    src: url('fonts/dbsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/dbsans-bold-webfont.woff') format('woff'),
-         url('fonts/dbsans-bold-webfont.ttf') format('truetype'),
-         url('fonts/dbsans-bold-webfont.svg#db_sansbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 
 
@@ -693,36 +754,6 @@ a.black:hover {
          url('fonts/dbsans-bolditalic-webfont.woff') format('woff'),
          url('fonts/dbsans-bolditalic-webfont.ttf') format('truetype'),
          url('fonts/dbsans-bolditalic-webfont.svg#db_sansbold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'db_sansitalic';
-    src: url('fonts/dbsans-italic-webfont.eot');
-    src: url('fonts/dbsans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/dbsans-italic-webfont.woff') format('woff'),
-         url('fonts/dbsans-italic-webfont.ttf') format('truetype'),
-         url('fonts/dbsans-italic-webfont.svg#db_sansitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'db_sansregular';
-    src: url('./fonts/dbsans-regular-webfont.eot');
-    src: url('./fonts/dbsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/dbsans-regular-webfont.woff') format('woff'),
-         url('./fonts/dbsans-regular-webfont.ttf') format('truetype'),
-         url('./fonts/dbsans-regular-webfont.svg#db_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
