@@ -184,7 +184,6 @@ img.box-ad {
 .video-container {
     position:relative;
     padding-bottom:56.25%;
-    padding-top:30px;
     height:0;
     overflow:hidden;
 }
@@ -211,7 +210,23 @@ img.box-ad {
     padding-top: 60px;
     width: 100%;
 }
-
+.videos {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.videos .thumbnail {
+    width: 32.6%;
+    padding: 0.5% 0.5% 0; 
+    float: left;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.videos .first {
+    margin-right: 1%;
+}
+.videos .second {
+    margin-right: 1%;
+}
 /* What's New page
 -------------------------*/
 .container.news {
@@ -550,6 +565,14 @@ label {
     .headshots .col-sm-4 {
         margin-top: 20px;
         padding: 0;
+    }
+    .videos .thumbnail {
+        width: 100%;
+        padding-bottom: 0;
+        margin-bottom: 2%;
+    }
+    .videos {
+        border: none;
     }
 
 

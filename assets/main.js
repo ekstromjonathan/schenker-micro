@@ -52,4 +52,33 @@ $(document).ready(function() {
 		});
 	});
 
+	// jwplayer
+	jwInit();
+
 });
+
+function jwInit () {
+	jwplayer('playerelBWIkcORVCp').setup({
+        file: 'https://s3-us-west-2.amazonaws.com/schenker-panam/07_Commonwealth_Games_Melburne_2006_English.mp4',
+        image: 'images/melburne.png',
+        title: 'Commonwealth Games Melburne',
+        width: '100%',
+        aspectratio: '16:9'
+    });
+
+    jwplayer('playeriMApWBBnCfya').setup({
+        file: 'https://s3-us-west-2.amazonaws.com/schenker-panam/10_Volvo_Ocean_Race_2005-20016_English.mp4',
+        image: 'images/volvo.png',
+        title: 'Volvo Ocean Race',
+        width: '100%',
+        aspectratio: '16:9'
+    });
+
+    jwplayer('playerJpKfVeMsGkdg').setup({
+        file: 'https://s3-us-west-2.amazonaws.com/schenker-panam/15_Schenker_Global_Sports_Events_English.mp4',
+        image: 'images/schenker-sports.png',
+        title: 'Schenker Global Sports Events',
+        width: '100%',
+        aspectratio: '16:9'
+    });
+}
