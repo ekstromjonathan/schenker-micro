@@ -3,18 +3,18 @@ $(document).ready(function() {
 	// full bio functionality
 	$('.readMore').on('click', function (e) {
 		e.preventDefault();
-		$(this).siblings().filter('p').first().children('.showMore').show();
-		$(this).siblings().filter('.showMore').slideDown('400', function() {
-			$(this).siblings().filter('.readMore').hide();
-			$(this).siblings().filter('.readLess').show();
+		$(this).siblings('.summary').animate({height: '100%'});
+		$(this).siblings('.showMore').slideDown('400', function() {
+			$(this).siblings('.readMore').hide();
+			$(this).siblings('.readLess').show();
 		});
 	});
 	$('.readLess').on('click', function (e) {
 		e.preventDefault();
-		$(this).siblings().filter('div.showMore').slideUp('400', function() {
-			$(this).siblings().filter('.readMore').show();
-			$(this).siblings().filter('.readLess').hide();
-			$(this).siblings().filter('p').first().children('.showMore').hide();
+		$(this).siblings('.showMore').slideUp('400', function() {
+			$(this).siblings('.readMore').show();
+			$(this).siblings('.readLess').hide();
+			$(this).siblings('.summary').removeAttr('style');
 		});
 	});
 

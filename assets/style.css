@@ -634,6 +634,10 @@ label {
     .carousel-caption h1 {
         font-size: 0.9em;
     }
+    .summary {
+        height: auto;
+    }
+
 }
 
 @media (min-width: 618px) and (max-width: 992px) {
