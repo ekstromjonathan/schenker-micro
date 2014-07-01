@@ -212,14 +212,12 @@ img.box-ad {
 }
 .videos {
     overflow: hidden;
-    border-bottom: 1px solid #ccc;
 }
 .videos .thumbnail {
     width: 32.6%;
     padding: 0.5% 0.5% 0; 
     float: left;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
+    height: 510px;
 }
 .videos .first {
     margin-right: 1%;
@@ -789,68 +787,3 @@ label {
     font-style: normal;
 
 }
-
-
-/*#footer {
-    background: #414B5B;
-    margin-top: 120px;
-    padding-top: 47px;
-    padding-bottom: 35px;
-    -webkit-font-smoothing: antialiased; }
-#footer .copyright {
-    color: #B5C5CF;
-    font-size: 14px;
-    font-weight: 500; }
-@media (max-width: 991px) {
-    #footer .copyright {
-        margin-bottom: 20px; } }
-@media (max-width: 767px) {
-    #footer .copyright {
-        text-align: center; } }
-@media (max-width: 767px) {
-    #footer .menu {
-        text-align: center;
-        margin-top: 40px; } }
-#footer .menu ul {
-    list-style-type: none;
-    padding: 0; }
-#footer .menu ul li {
-    display: inline-block; }
-#footer .menu ul li.active a {
-    color: #fff; }
-#footer .menu ul li a {
-    color: #ccc;
-    padding: 15px 17px;
-    font-weight: 500;
-    -webkit-transition: color 0.2s linear;
-    -moz-transition: color 0.2s linear;
-    -ms-transition: color 0.2s linear;
-    -o-transition: color 0.2s linear;
-    transition: color 0.2s linear; }
-#footer .menu ul li a:hover {
-    color: #fff;
-    text-decoration: none; }
-@media (max-width: 991px) {
-    #footer .menu ul li a {
-        padding: 15px 17px 15px 0px; } }
-
-@media (max-width: 767px) {
-    #footer .social {
-        text-align: center;
-        margin-top: 40px; } }
-#footer .social a {
-    border: 0;
-    text-decoration: none;
-    opacity: 1;
-    filter: alpha(opacity=100);
-    margin-left: 15px;
-    position: relative;
-    top: -10px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    transition: all .3s ease; }
-#footer .social a:hover {
-    opacity: 0.7;
-    filter: alpha(opacity=70); }*/
