@@ -252,6 +252,12 @@ img.box-ad {
 .news.well {
     margin-top: 3%;
 }
+.news-secondary p {
+    margin-top: 10%;
+}
+hr.news-divider {
+    width: 100%;
+}
 
 /* Our Team page
 -----------------------------*/
@@ -572,7 +578,9 @@ label {
     .videos {
         border: none;
     }
-
+    .glasgow {
+        float: none !important;
+    }
 
 }
 
