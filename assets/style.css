@@ -88,6 +88,10 @@ a:hover, a:active {
 .infographic-wrapper img {
     margin: auto;
 }
+/* Coming soon */
+#coming-soon img {
+    margin-right: 0.5%
+}
 
 /* Header and Nav
 -------------------------------------*/
